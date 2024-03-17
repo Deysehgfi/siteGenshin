@@ -1,3 +1,39 @@
+// const menuLinks = document.querySelectorAll(".sla-desisto a")
+// console.log(menuLinks);
+
+
+// function getDistanceFromTheTop(element){
+//   const id = element.getAttribute("href");
+//   return document.querySelector(id).offsetTop;
+// }
+
+// function nativeScroll(distanceFromTheTop){
+//   window.scroll({
+//     top: distanceFromTheTop,
+//     behavior: "smooth",
+//   });
+// }
+
+// function scrollToSection(event){
+//   event.preventDeafult();
+//   const distanceFromTheTop = getDistanceFromTheTop(event.target) -90;
+//   nativeScroll(distanceFromTheTop)
+//   // const element =event.target;
+//   // const id = element.getAtribute("href");
+//   // const section = document.querySelector(id);
+//   // console.log(section.offsetTop)
+// }
+
+// menuLinks.forEach((link)=>{
+//   link.addEventListener("click", scrollToSection)
+// })
+
+
+
+
+
+
+
 
 
 
