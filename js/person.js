@@ -31,6 +31,7 @@ document.addEventListener('DOMContentLoaded' , ()=>{
         const visao= document.querySelector('.visao')
         const aniversario =document.querySelector('.aniversario')
         const regiao =document.querySelector('.regiao')
+        const fandon = document.querySelector('.fandon')
        
     
     personagemImg.src = `./img/foto${paramIndex}.jpg` 
@@ -43,6 +44,7 @@ document.addEventListener('DOMContentLoaded' , ()=>{
     visao.innerHTML =`VISÃO: ${item.result.vision}`
     aniversario.innerHTML =`ANIVERSÁRIO: ${item.result.birthday}`
     regiao.innerHTML =`REGIÃO: ${item.result.region}`
+    fandon.innerHTML = `Fandon: ${item.result.wiki_url}`
     }})
 
     
