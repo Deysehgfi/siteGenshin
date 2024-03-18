@@ -33,7 +33,7 @@ body{
     background-color: var(--blue-shadow);
     height: 90px;
     width: 100%;
-    box-shadow: 10px 10px 50px rgba(0, 0, 0, 0.212);
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.478);
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -75,8 +75,7 @@ a{
 /*sessão 1----------------------------------------*/
 
 .introducao{
-    padding: 140px;
-    padding-top: 100px;
+   padding: 140px;
     z-index: 2;
     position: relative;
     text-align: start;
@@ -130,12 +129,15 @@ a{
 .section-1{
 
     margin-top: 50px;
+    /* margin-left: 50px; */
+    padding-left: 50px;
     display: flex;
     flex-direction: row;
     background-image: url(./img/paimoHome.png);
     background-repeat: no-repeat;
-    background-size: 1085px;
-    background-position: 260px 45px;
+    background-size: 1385px;
+    background-position: 100%;
+    width: 100%;
     right: 0;
 }
 
@@ -153,12 +155,24 @@ a{
 /*sessão  2----------------------------------------------------------------*/
 
 .section-2{
-    background-color: var(--salmao);
+    /* background-color: var(--salmao); */
     margin-top: 50px;
     width: 100%;
+    background-image: url(./img/Rectangle\ 3.png);
+    background-repeat: no-repeat;
+   background-size: 150%;
     /* transform: rotate(2deg);
     margin: -40px -50px -50px; */
 
+
+}
+.background-person{
+    background-color: var(--salmao);
+    transform: rotate(5deg);
+    width: 500px;
+    height: 500px;
+    z-index: 0;
+    bottom: 500px;
 
 }
 .personagem-container{
@@ -167,6 +181,7 @@ a{
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
+    
 }
 
 .personagem .personagem-caixa{
@@ -244,6 +259,7 @@ h4{
     position: sticky;
     top: 90px;
     z-index: 1;
+    box-shadow: 5px 10px 10px #98663fc8;
 
 }
 
