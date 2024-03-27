@@ -1,0 +1,218 @@
+:root{
+    --salmao: #D6AE9D;
+    --black: #141416;
+    --black-light: #171717;
+    --white:#ffff;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    /* cursor: url(../img/section-1.png), auto; */
+
+}
+
+body{
+    /* background-image: linear-gradient(to rigth, black pink); */
+    background-image: linear-gradient(to right, var(--black), var(--salmao));
+}
+
+
+
+
+
+
+
+
+
+
+/* cabeçalho--------------------------------------------------------------------------------------------------------------------- */
+.cabecalho-header{
+    backdrop-filter: blur(10px);
+    border-bottom: solid 1px var(--white) ;
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.315);
+    position: fixed;
+    top: 0; 
+    width: 100%;
+    z-index: 999;
+}
+.logo{
+    font-family: "Julius Sans One", sans-serif;
+    color: var(--white);
+    font-size: 40px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    backdrop-filter: blur(5px);
+    padding: 20px;
+    
+}
+
+.links-nav{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+
+}
+
+.link{
+    color: var(--white);
+    font-family:  "Julius Sans One", sans-serif;
+    font-size: 20px;
+    transition: 0.5s;
+}
+ .link:hover{
+    color: var(--black-light);
+ }
+
+
+
+
+
+
+
+
+
+/* corpo----------------------------------------------------------------------------------------------------------------------------- */
+
+/* section-1------------- */
+.section-1{
+    background-image: url(../img/img-Home.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: 0px 85px;
+    padding: 160px 90px 190px;
+    padding-bottom: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    filter: opacity(75%);
+
+    
+}
+
+.cabecalho-main{
+    border-bottom: 1px solid rgba(255, 255, 255, 0.753);
+    width: 426px;
+}
+
+.titule{
+    font-family:"Lexend Deca", sans-serif;
+    color: var(--white);
+    font-size: 50px;
+}
+
+.info-section{
+    text-align: start;
+    color: var(--white);
+    width: 426px;
+    height: 210px;
+    font-family: "Kaisei Tokumin", serif;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* section2------------------------------ */
+
+.section-2{
+    padding-top: 170px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.subtitule{
+    font-family:"Lexend Deca", sans-serif;
+    color: var(--white);
+    font-size: 50px;
+    border-bottom: var(--white) 1px solid;
+    padding: 7px;
+}
+
+.bio-info{
+
+    text-align:justify;
+    font-size: 15px;
+    color: var(--white);
+    font-family: "Kaisei Tokumin", serif;
+    height: 200px;
+    width: 920px;
+}
+
+.btn-more{
+    color: var(--white);
+    font-family: "Julius Sans One", sans-serif;
+    border: solid 1px var(--white);
+    border-radius: 50px;
+    padding: 15px 50px;
+    transition: 0.5s;
+}
+
+.btn-more:hover{
+    background-color: var(--black-light);
+}
+
+
+
+
+
+
+
+
+
+/* section------------------------------------------------ */
+.section-3{
+    padding-top: 150px;
+    padding-left: 30px;
+}
+
+h3{
+    width: 350px;
+}
+
+.Gallery{
+    margin: 45px;
+    border: solid 1px var(--white);
+    border-radius: 0px 20px 0px 20px;
+    flex-wrap: wrap;
+    max-width: 0, auto;
+}
+.img-gallery{
+    width: 447px;
+    height: 272px;
+    border-radius: 0px 20px 0px 20px;
+    border: 0;
+    padding: 10px;
+    filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.527));
+    transition: 1s;
+}
+
+.img-gallery:hover{
+      transform: scale(1.04);
+      filter:drop-shadow( 10px 10px 5px black);
+    
+}
+
+
