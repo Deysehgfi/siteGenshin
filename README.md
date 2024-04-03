@@ -1,8 +1,8 @@
 <h1>FanPage de Genshin Impact</h1>
 
-Atenção!!! site não finalizado!
+<h4>Atenção!!! site não finalizado!</h4>
 
-link da aplicação: https://deysehgfi.github.io/siteGenshin/
+<strong>link da aplicação: </strong>https://deysehgfi.github.io/siteGenshin/
 <br>
 Api utilizada: https://gshimpact.vercel.app/
 <hr>
