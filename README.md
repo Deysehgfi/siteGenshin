@@ -4,7 +4,7 @@
 
 <strong>link da aplicação: </strong>https://deysehgfi.github.io/siteGenshin/
 <br>
-Api utilizada: https://gshimpact.vercel.app/
+<h6> Api utilizada: https://gshimpact.vercel.app/</h6>
 <hr>
 
 
